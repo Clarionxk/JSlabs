@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab2 user name</title>
+</head>
+<body>
+
+
+
+
+
+
+<script>
+
+    var userName=prompt("enter your name");
+
+    while(isFinite(userName))
+    {
+        var userName=prompt("enter your name");
+    }
+
+
+
+
+    var birthYear= prompt("Enter Your Birth Day");
+let count = 0;
+while (isNaN(birthYear)) {
+    var birthYear = prompt("Enter Your Birth Day");
+    count++;
+    if (count == 2) {
+        birthYear = true
+    }
+    
+}
+console.log(birthYear);
+
+
+
+
+    var age=2022-birthYear
+    document.write("your name is "+ userName+"<br/>")
+    document.write("your birth year is"+ birthYear+"<br/>");
+    document.write("your age is "+ age);
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
